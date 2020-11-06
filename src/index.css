@@ -11,6 +11,10 @@ body, button, input, select, textarea {
     margin: 0;
 }
 
+body {
+	margin: 1rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Patua One", serif;
     letter-spacing: 2px;
@@ -193,4 +197,10 @@ code {
 
 .icon-send:before {
 	content: "🔓";
+}
+
+.container__card {
+	border: 1px solid seagreen;
+	margin: .5rem;
+	padding: 1rem;
 }
